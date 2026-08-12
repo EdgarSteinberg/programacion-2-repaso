@@ -5,13 +5,20 @@ Repositorio dedicado al repaso y práctica de los principales conceptos vistos e
 El objetivo es reforzar los fundamentos de la Programación Orientada a Objetos, estructuras de datos, principios de diseño y patrones de diseño mediante ejercicios prácticos.
 
 ---
+## 📐 Diagrama UML
 
+<p align="center">
+  <img src="uml.png" alt="Diagrama UML" width="700">
+</p>
+
+---
 ## 🧠 Contenidos
 
 ### 1. Programación Orientada a Objetos (POO)
 
 Repaso de los principales conceptos de la programación orientada a objetos:
 
+- Diagrama de clases(UML)
 - Clases y objetos
 - Atributos y propiedades
 - Constructores
