@@ -32,4 +32,9 @@ public class Alumno : Persona
     {
         return $"Hola soy el alumno {Nombre}, {Apellido} con legajo {Legajo} y email: {Email} mi promedio es: {Promedio}";
     }
+
+    public bool EstoyPresente()
+    {
+        return true;
+    }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ACER\\Desktop\\UTN 2do Cuatrimestre 2026\\Programacion ll - Martes & Viernes\\practicas_II\\clase_04\\clase_04.csproj": {}
+    "c:\\Users\\ACER\\Desktop\\UTN 2do Cuatrimestre 2026\\Programacion ll - Martes & Viernes\\practicas_II\\clase_04\\clase\\clase_04.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ACER\\Desktop\\UTN 2do Cuatrimestre 2026\\Programacion ll - Martes & Viernes\\practicas_II\\clase_04\\clase_04.csproj": {
+    "c:\\Users\\ACER\\Desktop\\UTN 2do Cuatrimestre 2026\\Programacion ll - Martes & Viernes\\practicas_II\\clase_04\\clase\\clase_04.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Desktop\\UTN 2do Cuatrimestre 2026\\Programacion ll - Martes & Viernes\\practicas_II\\clase_04\\clase_04.csproj",
+        "projectUniqueName": "c:\\Users\\ACER\\Desktop\\UTN 2do Cuatrimestre 2026\\Programacion ll - Martes & Viernes\\practicas_II\\clase_04\\clase\\clase_04.csproj",
         "projectName": "clase_04",
-        "projectPath": "C:\\Users\\ACER\\Desktop\\UTN 2do Cuatrimestre 2026\\Programacion ll - Martes & Viernes\\practicas_II\\clase_04\\clase_04.csproj",
+        "projectPath": "c:\\Users\\ACER\\Desktop\\UTN 2do Cuatrimestre 2026\\Programacion ll - Martes & Viernes\\practicas_II\\clase_04\\clase\\clase_04.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Desktop\\UTN 2do Cuatrimestre 2026\\Programacion ll - Martes & Viernes\\practicas_II\\clase_04\\obj\\",
+        "outputPath": "c:\\Users\\ACER\\Desktop\\UTN 2do Cuatrimestre 2026\\Programacion ll - Martes & Viernes\\practicas_II\\clase_04\\clase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
