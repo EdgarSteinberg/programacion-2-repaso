@@ -3,3 +3,13 @@ C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viern
 C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_05\obj\Debug\net10.0\clase_05.AssemblyInfo.cs
 C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_05\obj\Debug\net10.0\clase_05.csproj.CoreCompileInputs.cache
 C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_05\obj\Debug\net10.0\clase_05.sourcelink.json
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_05\bin\Debug\net10.0\clase_05.exe
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_05\bin\Debug\net10.0\clase_05.deps.json
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_05\bin\Debug\net10.0\clase_05.runtimeconfig.json
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_05\bin\Debug\net10.0\clase_05.dll
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_05\bin\Debug\net10.0\clase_05.pdb
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_05\obj\Debug\net10.0\clase_05.dll
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_05\obj\Debug\net10.0\refint\clase_05.dll
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_05\obj\Debug\net10.0\clase_05.pdb
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_05\obj\Debug\net10.0\clase_05.genruntimeconfig.cache
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_05\obj\Debug\net10.0\ref\clase_05.dll

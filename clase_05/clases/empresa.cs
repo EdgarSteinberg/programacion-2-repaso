@@ -24,4 +24,9 @@ public class Empresa
     {
         return empleado.CalcularSueldo();
     }
+
+    public Empresa()
+    {
+        _empleados = new List<Empleado>();
+    }
 }

@@ -1,3 +1,4 @@
+namespace Clase_05.clases;
 
 
 public class BonoPresentismoB : BonoPresentismo

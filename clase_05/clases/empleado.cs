@@ -43,10 +43,22 @@ public abstract class Empleado
         get { return _bonoPresentismo; }
         set { _bonoPresentismo = value; }
     }
-    
-    
+
+
     public double CalcularSueldo()
     {
-        return SueldoNeto + BonoPresentismo.CalcularPresentismo(this) + BonoResultado.CalularBonoObjetivo(this);
+        return SueldoNeto
+             + BonoPresentismo.CalcularPresentismo(this)
+             + BonoResultado.CalcularBonoObjetivo(this);
+    }
+
+    public Empleado(string nombre, double sueldoNeto, int inasisencias, int objetivo, BonoResultado bonoResultado, BonoPresentismo bonoPresentismo)
+    {
+        _nombre = nombre;
+        _sueldoNeto = sueldoNeto;
+        _inasistencias = inasisencias;
+        _objetivo = objetivo;
+        _bonoResultado = bonoResultado;
+        _bonoPresentismo = bonoPresentismo;
     }
 }
