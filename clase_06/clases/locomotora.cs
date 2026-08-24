@@ -2,6 +2,12 @@ namespace Clase_06.clases;
 
 public class Locomotora
 {
+    public Locomotora(double peso, double pesoMaximoArrastre)
+    {
+        _peso = peso;
+        _pesoMaximoArrastre = pesoMaximoArrastre;
+        _velocidadMaxima = 80;
+    }
     private double _peso;
     public double Peso
     {
@@ -15,20 +21,12 @@ public class Locomotora
         get { return _pesoMaximoArrastre; }
         set { _pesoMaximoArrastre = value; }
     }
-    
+
     private double _velocidadMaxima;
     public double VelocidadMaxima
     {
         get { return _velocidadMaxima; }
         set { _velocidadMaxima = value; }
-    }
-    
-
-    private Bool _estaEnMovimiento;
-    public Bool EstaEnMovimiento
-    {
-        get { return _estaEnMovimiento; }
-        set { _estaEnMovimiento = value; }
     }
 
     public double CalcularArrastreUtil()

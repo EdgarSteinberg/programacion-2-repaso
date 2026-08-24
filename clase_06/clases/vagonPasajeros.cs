@@ -2,6 +2,12 @@ namespace Clase_06.clases;
 
 public class VagonPasajeros : Vagon
 {
+    public VagonPasajeros(int cantidadDePasajeros, double largo, double anchoUtil)
+    {
+        _cantidadPasajeros = cantidadDePasajeros;
+        _largo = largo;
+        _anchoUtil = anchoUtil;
+    }
     private int _cantidadPasajeros;
     public int CantidadPasajeros
     {
@@ -24,17 +30,18 @@ public class VagonPasajeros : Vagon
     }
 
 
-    public double CantidadDePasajeros()
+    public int CantidadDePasajeros()
     {
         if (AnchoUtil <= 2.5)
         {
-            return Largo * 8;
+            return (int)(Largo * 8);
         }
-        else if (AnchoUtil > 2.5)
+        else
         {
-            return Largo * 8;
+            return (int)(Largo * 8);
         }
     }
+    
     public override double CalcularPesoMaximo()
     {
         return CantidadDePasajeros() * 80;
