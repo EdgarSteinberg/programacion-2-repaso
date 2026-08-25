@@ -1,9 +1,8 @@
 ﻿using Clase_06.clases;
 
 
-Formacion formacion = new Formacion(false);
-
 Locomotora locomotora = new Locomotora(1000, 12000);
+Formacion formacion = new Formacion(locomotora);
 
 
 Console.WriteLine($"Locomotora arrastre util: {locomotora.CalcularArrastreUtil()}");

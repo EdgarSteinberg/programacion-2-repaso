@@ -1,8 +1,12 @@
 namespace Clase_06.clases;
 
-
 public class Deposito
 {
+    public Deposito()
+    {
+        _locomotoras = new List<Locomotora>();
+        _formaciones = new List<Formacion>();
+    }
     private List<Locomotora> _locomotoras;
     public List<Locomotora> Locomotoras
     {
@@ -19,9 +23,7 @@ public class Deposito
 
     public void AgregarLocomotoraEnFormacion(Locomotora locomotora, Formacion formacion)
     {
-        if (!formacion.EstaEnMovimiento)
-        {
-            formacion.Locomotoras.Add(locomotora);
-        }
+        formacion.AgregarLocomotora(locomotora);
+
     }
 }

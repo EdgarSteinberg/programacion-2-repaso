@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="3WA5TBjAOEk7hFYWfdY-" name="Page-1">
-        <mxGraphModel dx="1224" dy="1327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1224" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -40,7 +40,7 @@
                 <mxCell id="11" value="- vagones : List&amp;lt;Vagon&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="10" vertex="1">
                     <mxGeometry y="50" width="310" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="60" value="- estaEnMovimiento: bool" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="10">
+                <mxCell id="60" value="- estaEnMovimiento: bool" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="10" vertex="1">
                     <mxGeometry y="70" width="310" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="10" vertex="1">
@@ -121,7 +121,7 @@
                     <mxGeometry y="58" width="290" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="32" value="&lt;b&gt;#VagonPasajeros&lt;/b&gt;&lt;div&gt;&lt;b&gt;public double VagonPasajeros()&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;{&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;if(anchoUtil &amp;lt;= 2.5)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;{&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;return&amp;nbsp; largo * 10;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}else if(anchoUtil &amp;gt; 2.5)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;{&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;return&amp;nbsp; largo * 10;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;public override double CalcularPesoMaximo()&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;{&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;return&amp;nbsp; cantidadPasajeros * 80;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="-60" y="370" width="280" height="240" as="geometry"/>
+                    <mxGeometry x="-90" y="312" width="280" height="240" as="geometry"/>
                 </mxCell>
                 <mxCell id="38" value="&lt;b&gt;#VagonCarga&lt;/b&gt;&lt;div&gt;&lt;b&gt;public override dobule CalcularPesoMaximo()&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;{&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;retiurn&amp;nbsp; cargaMaxima + 160;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;}&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="400" y="490" width="280" height="90" as="geometry"/>
@@ -144,7 +144,7 @@
                 <mxCell id="58" value="&lt;b&gt;#:Locomotora&lt;/b&gt;&lt;div&gt;&lt;b&gt;public double CalcularArrastreUtil()&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;{&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;return PesoMaximoArrastre - Peso&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;]}&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="-160" y="40" width="230" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="55" style="edgeStyle=none;html=1;endArrow=diamond;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="41" edge="1" target="60">
+                <mxCell id="55" style="edgeStyle=none;html=1;endArrow=diamond;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="41" target="60" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="150" y="210" as="targetPoint"/>
                     </mxGeometry>

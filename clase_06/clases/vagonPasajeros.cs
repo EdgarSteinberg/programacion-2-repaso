@@ -38,7 +38,7 @@ public class VagonPasajeros : Vagon
         }
         else
         {
-            return (int)(Largo * 8);
+            return (int)(Largo * 10);
         }
     }
     
