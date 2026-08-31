@@ -3,16 +3,16 @@ namespace clase_08.clases;
 
 public class Moderado : Empleado
 {
-    private int _lugaresLibre;
-    public int LugaresLibres
+    private int _minimoLugares;
+    public int MinimoLugares
     {
-        get { return _lugaresLibre; }
-        set { _lugaresLibre = value; }
+        get { return _minimoLugares; }
+        set { _minimoLugares = value; }
     }
     
     public override bool AceptaSubir(Micro micro)
     {
-        if(micro.HayLugar() >= LugaresLibres)
+        if(micro.HayLugares() >= MinimoLugares)
         {
             return true;
         }
