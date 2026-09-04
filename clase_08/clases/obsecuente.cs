@@ -5,6 +5,6 @@ public class Obsecuente : Empleado
 {
     public override bool AceptaSubir(Micro micro)
     {
-        if()
+        return this.Jefe.AceptaSubir();
     }
 }
