@@ -8,7 +8,10 @@ public class Acme
         get { return _micros; }
         set { _micros = value; }
     }
-
+    public Acme()
+    {
+        _micros = new List<Micro>();
+    }
     public void AgregarMicro(Micro micro)
     {
         _micros.Add(micro);

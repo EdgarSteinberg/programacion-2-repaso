@@ -3,6 +3,13 @@ namespace clase_08.clases;
 
 public class Micro
 {
+    public Micro(int parados, int sentados, double volumen)
+    {
+        _parados = parados;
+        _sentados = sentados;
+        _empleados = new List<Empleado>();
+        _volumen = volumen;
+    }
     private List<Empleado> _empleados = new List<Empleado>();
 
     public List<Empleado> Empleados
@@ -63,7 +70,7 @@ public class Micro
 
     // Permite subir un empleado si hay lugar
     // y el empleado acepta subir.
-    public void PuedeSubir(Empleado empleado)
+    public bool PuedeSubir(Empleado empleado)
     {
         if (HayLugares() && empleado.AceptaSubir(this))
         {
@@ -75,6 +82,8 @@ public class Micro
             {
                 CantidadSentados++;
             }
+
+            return true;
         }
         else
         {
