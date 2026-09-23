@@ -1,0 +1,15 @@
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_16\sueldos\bin\Debug\net10.0\sueldos.exe
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_16\sueldos\bin\Debug\net10.0\sueldos.deps.json
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_16\sueldos\bin\Debug\net10.0\sueldos.runtimeconfig.json
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_16\sueldos\bin\Debug\net10.0\sueldos.dll
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_16\sueldos\bin\Debug\net10.0\sueldos.pdb
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_16\sueldos\obj\Debug\net10.0\sueldos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_16\sueldos\obj\Debug\net10.0\sueldos.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_16\sueldos\obj\Debug\net10.0\sueldos.AssemblyInfo.cs
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_16\sueldos\obj\Debug\net10.0\sueldos.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_16\sueldos\obj\Debug\net10.0\sueldos.sourcelink.json
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_16\sueldos\obj\Debug\net10.0\sueldos.dll
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_16\sueldos\obj\Debug\net10.0\refint\sueldos.dll
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_16\sueldos\obj\Debug\net10.0\sueldos.pdb
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_16\sueldos\obj\Debug\net10.0\sueldos.genruntimeconfig.cache
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_16\sueldos\obj\Debug\net10.0\ref\sueldos.dll

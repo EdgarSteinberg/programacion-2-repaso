@@ -44,11 +44,11 @@ public class Empleado
         set { _objetivoCumplido = value; }
     }
 
-    public Empleado(string nombre, BonoPresentismo bonoPresentismo, BonoResultado bonoResultado, double sueldoNeto, double presentismo, double objetivoCumplido)
+    public Empleado(string nombre, BonoPresentismo bonoPresentismo, double sueldoNeto, double presentismo, double objetivoCumplido)
     {
         this._nombre = nombre;
         this._bonoPresentismo = bonoPresentismo;
-        this._bonoResultado = bonoResultado;
+        this._bonoResultado = new BonoResultado();
         this._sueldoNeto = sueldoNeto;
         this._presentismo = presentismo;
         this._objetivoCumplido = objetivoCumplido;

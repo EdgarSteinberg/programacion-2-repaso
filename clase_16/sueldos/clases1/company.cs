@@ -1,6 +1,6 @@
 namespace clase_16.sueldos.clases1;
 
-public class Empresa
+public class Company
 {
     private List<Empleado> _empleados;
     public List<Empleado> Empleados
@@ -9,7 +9,7 @@ public class Empresa
         set { _empleados = value; }
     }
 
-    public Empresa()
+    public Company()
     {
         _empleados = new List<Empleado>();
     }
