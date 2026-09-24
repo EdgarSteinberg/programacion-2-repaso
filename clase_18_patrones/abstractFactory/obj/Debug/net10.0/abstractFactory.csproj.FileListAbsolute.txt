@@ -1,0 +1,15 @@
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_18_patrones\abstractFactory\obj\Debug\net10.0\abstractFactory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_18_patrones\abstractFactory\obj\Debug\net10.0\abstractFactory.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_18_patrones\abstractFactory\obj\Debug\net10.0\abstractFactory.AssemblyInfo.cs
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_18_patrones\abstractFactory\obj\Debug\net10.0\abstractFactory.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_18_patrones\abstractFactory\obj\Debug\net10.0\abstractFactory.sourcelink.json
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_18_patrones\abstractFactory\bin\Debug\net10.0\abstractFactory.exe
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_18_patrones\abstractFactory\bin\Debug\net10.0\abstractFactory.deps.json
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_18_patrones\abstractFactory\bin\Debug\net10.0\abstractFactory.runtimeconfig.json
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_18_patrones\abstractFactory\bin\Debug\net10.0\abstractFactory.dll
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_18_patrones\abstractFactory\bin\Debug\net10.0\abstractFactory.pdb
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_18_patrones\abstractFactory\obj\Debug\net10.0\abstractFactory.dll
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_18_patrones\abstractFactory\obj\Debug\net10.0\refint\abstractFactory.dll
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_18_patrones\abstractFactory\obj\Debug\net10.0\abstractFactory.pdb
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_18_patrones\abstractFactory\obj\Debug\net10.0\abstractFactory.genruntimeconfig.cache
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_18_patrones\abstractFactory\obj\Debug\net10.0\ref\abstractFactory.dll
