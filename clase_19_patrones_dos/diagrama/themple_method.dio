@@ -1,0 +1,98 @@
+<mxfile host="65bd71144e">
+    <diagram id="AwqaeqK1RTWJTl7p4Nr4" name="Page-1">
+        <mxGraphModel dx="1674" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-1" parent="1" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" value="ProcesadorPago" vertex="1">
+                    <mxGeometry height="158" width="330" x="280" y="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-3" parent="VOiMjgJt5kzfAor1GXAt-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="attribute1" vertex="1">
+                    <mxGeometry height="20" width="330" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-6" parent="VOiMjgJt5kzfAor1GXAt-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+                    <mxGeometry height="8" width="330" y="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-9" parent="VOiMjgJt5kzfAor1GXAt-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ ProcesarPago(float monto) : decimal" vertex="1">
+                    <mxGeometry height="20" width="330" y="58" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-10" parent="VOiMjgJt5kzfAor1GXAt-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontStyle=2" value="+ ValidarMonto(float monto) : bool" vertex="1">
+                    <mxGeometry height="20" width="330" y="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-11" parent="VOiMjgJt5kzfAor1GXAt-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontStyle=2" value="+ Aplicar(float monto) : void" vertex="1">
+                    <mxGeometry height="20" width="330" y="98" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-12" parent="VOiMjgJt5kzfAor1GXAt-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontStyle=2" value="+ NotificarUsuario() : bool" vertex="1">
+                    <mxGeometry height="20" width="330" y="118" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-8" parent="VOiMjgJt5kzfAor1GXAt-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="- LogoPago(float monto) : void" vertex="1">
+                    <mxGeometry height="20" width="330" y="138" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-21" edge="1" parent="1" source="VOiMjgJt5kzfAor1GXAt-13" style="edgeStyle=none;html=1;endArrow=block;endFill=0;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="350" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-13" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" value="ProcesadorPagoBanco" vertex="1">
+                    <mxGeometry height="118" width="330" x="130" y="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-14" parent="VOiMjgJt5kzfAor1GXAt-13" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="attribute1" vertex="1">
+                    <mxGeometry height="20" width="330" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-15" parent="VOiMjgJt5kzfAor1GXAt-13" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+                    <mxGeometry height="8" width="330" y="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-17" parent="VOiMjgJt5kzfAor1GXAt-13" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ ValidarMonto(float monto) : bool" vertex="1">
+                    <mxGeometry height="20" width="330" y="58" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-18" parent="VOiMjgJt5kzfAor1GXAt-13" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Aplicar(float monto) : void" vertex="1">
+                    <mxGeometry height="20" width="330" y="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-19" parent="VOiMjgJt5kzfAor1GXAt-13" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ NotificarUsuario() : bool" vertex="1">
+                    <mxGeometry height="20" width="330" y="98" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-22" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" value="ProcesadorPagoMercadoPago" vertex="1">
+                    <mxGeometry height="118" width="330" x="510" y="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-23" parent="VOiMjgJt5kzfAor1GXAt-22" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="attribute1" vertex="1">
+                    <mxGeometry height="20" width="330" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-24" parent="VOiMjgJt5kzfAor1GXAt-22" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+                    <mxGeometry height="8" width="330" y="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-25" parent="VOiMjgJt5kzfAor1GXAt-22" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ ValidarMonto(float monto) : bool" vertex="1">
+                    <mxGeometry height="20" width="330" y="58" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-26" parent="VOiMjgJt5kzfAor1GXAt-22" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Aplicar(float monto) : void" vertex="1">
+                    <mxGeometry height="20" width="330" y="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-27" parent="VOiMjgJt5kzfAor1GXAt-22" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ NotificarUsuario() : bool" vertex="1">
+                    <mxGeometry height="20" width="330" y="98" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-28" edge="1" parent="1" source="VOiMjgJt5kzfAor1GXAt-22" style="edgeStyle=none;html=1;entryX=0.892;entryY=1.18;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" target="VOiMjgJt5kzfAor1GXAt-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-29" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" value="BilleteraVirtual" vertex="1">
+                    <mxGeometry height="73" width="230" x="-50" y="102.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-39" parent="VOiMjgJt5kzfAor1GXAt-29" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="- procesadorPago:&amp;nbsp; ProcesarPago" vertex="1">
+                    <mxGeometry height="20" width="230" y="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-34" parent="VOiMjgJt5kzfAor1GXAt-29" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+                    <mxGeometry height="8" width="230" y="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-36" parent="VOiMjgJt5kzfAor1GXAt-29" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ pagar(float monto) :: bool" vertex="1">
+                    <mxGeometry height="20" width="230" y="53" as="geometry"/>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-37" edge="1" parent="1" source="VOiMjgJt5kzfAor1GXAt-10" style="edgeStyle=none;html=1;endArrow=diamondThin;endFill=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="180" y="148" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="VOiMjgJt5kzfAor1GXAt-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="#ProcesadorPago&lt;div&gt;public decimal ProcesarPago(float monto){&lt;/div&gt;&lt;div&gt;if(this.ValidarMonto(float monto){&lt;/div&gt;&lt;div&gt;this.Aplicar(float monto);&lt;/div&gt;&lt;div&gt;this.LogPago(float monto)&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;this.NotificarUsuario()&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="158" width="250" x="680" y="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
