@@ -23,3 +23,13 @@ Se aplica Interface Segregation porque IProcesamiento define únicamente el comp
 5. D — Dependency Inversion ✅
 
 Se aplica Dependency Inversion porque SistemaModular depende de la abstracción IProcesamiento y no de una estrategia concreta. La implementación concreta se inyecta desde afuera mediante el constructor
+
+
+
+| SOLID | En tu ejercicio                                                                 |
+| ----- | ------------------------------------------------------------------------------- |
+| **S** | Cada clase tiene una responsabilidad específica                                 |
+| **O** | Agrego nuevas estrategias sin modificar las existentes                          |
+| **L** | `Encriptado` y `Compresion` pueden sustituir a `IProcesamiento`                 |
+| **I** | `IProcesamiento` tiene un contrato pequeño y específico                         |
+| **D** | `SistemaModular` depende de `IProcesamiento`, no de una implementación concreta |
