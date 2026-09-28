@@ -1,0 +1,25 @@
+1. S — Single Responsibility ✅
+
+Cada clase tiene una única responsabilidad bien definida. Documento representa los datos del documento, SistemaModular coordina el procesamiento y las estrategias concretas se encargan de una forma específica de procesar el documento.
+
+
+2. O — Open/Closed ✅
+
+El sistema está abierto a extensión y cerrado a modificación porque puedo agregar nuevas estrategias de procesamiento implementando IProcesamiento, sin modificar SistemaModular ni las estrategias
+
+
+3. L — Liskov Substitution ⚠️
+
+Una implementación de IProcesamiento debe poder sustituir a otra sin romper el funcionamiento esperado del sistema.
+Se cumple Liskov porque Encriptado y Compresion pueden sustituirse entre sí como implementaciones de IProcesamiento sin que SistemaModular necesite conocer cuál de ellas está utilizando.
+
+
+4. I — Interface Segregation ⚠️
+
+Una clase no debería verse obligada a depender de métodos que no necesita.
+Se aplica Interface Segregation porque IProcesamiento define únicamente el comportamiento necesario para procesar un documento y sus implementaciones no están obligadas a depender de métodos que no utilizan.
+
+
+5. D — Dependency Inversion ✅
+
+Se aplica Dependency Inversion porque SistemaModular depende de la abstracción IProcesamiento y no de una estrategia concreta. La implementación concreta se inyecta desde afuera mediante el constructor
