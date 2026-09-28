@@ -1,4 +1,4 @@
-namespace clase_20_clases;
+namespace clase_20_.clases;
 
 public class SistemaModular
 {
@@ -19,13 +19,13 @@ public class SistemaModular
 
     public SistemaModular(IProcesamiento procesamiento, Documento documento)
     {
-        _Procesamiento = procesamiento;
+        _procesamiento = procesamiento;
         _documento = documento;
     }
 
     public void ProcesarDocumento(Documento documento)
     {
-        _iProcesamiento.Procesar(documento);
+        _procesamiento.Procesar(documento);
     }
 
 }

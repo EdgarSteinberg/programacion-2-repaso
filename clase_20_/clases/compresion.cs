@@ -1,4 +1,4 @@
-namespace clase_20_clases;
+namespace clase_20_.clases;
 
 public class Compresion : IProcesamiento
 {
