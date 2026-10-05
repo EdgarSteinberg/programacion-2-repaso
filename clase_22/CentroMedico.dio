@@ -1,0 +1,84 @@
+<mxfile host="65bd71144e">
+    <diagram id="cxxJlOer0viDu0yJD0Ab" name="Page-1">
+        <mxGraphModel dx="1661" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2IOTU9CSTRlZO6mVEltQ-1" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" value="BaseSanitaria" vertex="1">
+                    <mxGeometry height="138" width="260" x="50" y="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="2IOTU9CSTRlZO6mVEltQ-9" parent="2IOTU9CSTRlZO6mVEltQ-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="- nombre : string" vertex="1">
+                    <mxGeometry height="20" width="260" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="2IOTU9CSTRlZO6mVEltQ-10" parent="2IOTU9CSTRlZO6mVEltQ-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="- cantidadAmbulancias : int" vertex="1">
+                    <mxGeometry height="20" width="260" y="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="2IOTU9CSTRlZO6mVEltQ-19" parent="2IOTU9CSTRlZO6mVEltQ-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="- tiempoAsistencia : double" vertex="1">
+                    <mxGeometry height="20" width="260" y="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="2IOTU9CSTRlZO6mVEltQ-3" parent="2IOTU9CSTRlZO6mVEltQ-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="- direccion : string" vertex="1">
+                    <mxGeometry height="20" width="260" y="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="2IOTU9CSTRlZO6mVEltQ-6" parent="2IOTU9CSTRlZO6mVEltQ-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+                    <mxGeometry height="8" width="260" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="2IOTU9CSTRlZO6mVEltQ-8" parent="2IOTU9CSTRlZO6mVEltQ-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="operation1" vertex="1">
+                    <mxGeometry height="20" width="260" y="118" as="geometry"/>
+                </mxCell>
+                <mxCell id="2IOTU9CSTRlZO6mVEltQ-11" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" value="UA" vertex="1">
+                    <mxGeometry height="138" width="260" x="410" y="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="2IOTU9CSTRlZO6mVEltQ-12" parent="2IOTU9CSTRlZO6mVEltQ-11" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="- bases : List&amp;lt;Base&amp;gt;" vertex="1">
+                    <mxGeometry height="20" width="260" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="2IOTU9CSTRlZO6mVEltQ-15" parent="2IOTU9CSTRlZO6mVEltQ-11" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+                    <mxGeometry height="8" width="260" y="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="2IOTU9CSTRlZO6mVEltQ-16" parent="2IOTU9CSTRlZO6mVEltQ-11" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ AgregarBases(Base base) : void" vertex="1">
+                    <mxGeometry height="20" width="260" y="58" as="geometry"/>
+                </mxCell>
+                <mxCell id="2IOTU9CSTRlZO6mVEltQ-18" parent="2IOTU9CSTRlZO6mVEltQ-11" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ EliminarBases(Bases base) : void" vertex="1">
+                    <mxGeometry height="20" width="260" y="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="2IOTU9CSTRlZO6mVEltQ-34" parent="2IOTU9CSTRlZO6mVEltQ-11" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ AmbulanciasDisponibles() : int" vertex="1">
+                    <mxGeometry height="20" width="260" y="98" as="geometry"/>
+                </mxCell>
+                <mxCell id="2IOTU9CSTRlZO6mVEltQ-36" parent="2IOTU9CSTRlZO6mVEltQ-11" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ TiempoAsistencia() : double" vertex="1">
+                    <mxGeometry height="20" width="260" y="118" as="geometry"/>
+                </mxCell>
+                <mxCell id="2IOTU9CSTRlZO6mVEltQ-32" edge="1" parent="1" source="2IOTU9CSTRlZO6mVEltQ-21" style="edgeStyle=none;html=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="300" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2IOTU9CSTRlZO6mVEltQ-21" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" value="UAP" vertex="1">
+                    <mxGeometry height="58" width="260" x="260" y="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="2IOTU9CSTRlZO6mVEltQ-22" parent="2IOTU9CSTRlZO6mVEltQ-21" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="- personalAtencionMedica" vertex="1">
+                    <mxGeometry height="20" width="260" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="2IOTU9CSTRlZO6mVEltQ-23" parent="2IOTU9CSTRlZO6mVEltQ-21" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+                    <mxGeometry height="8" width="260" y="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="2IOTU9CSTRlZO6mVEltQ-26" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Hospitales" vertex="1">
+                    <mxGeometry height="58" width="260" x="-20" y="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="2IOTU9CSTRlZO6mVEltQ-27" parent="2IOTU9CSTRlZO6mVEltQ-26" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="- personal" vertex="1">
+                    <mxGeometry height="20" width="260" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="2IOTU9CSTRlZO6mVEltQ-28" parent="2IOTU9CSTRlZO6mVEltQ-26" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
+                    <mxGeometry height="8" width="260" y="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="2IOTU9CSTRlZO6mVEltQ-31" edge="1" parent="1" source="2IOTU9CSTRlZO6mVEltQ-26" style="edgeStyle=none;html=1;entryX=0.408;entryY=1.22;entryDx=0;entryDy=0;entryPerimeter=0;" target="2IOTU9CSTRlZO6mVEltQ-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2IOTU9CSTRlZO6mVEltQ-38" edge="1" parent="1" source="2IOTU9CSTRlZO6mVEltQ-19" style="edgeStyle=none;html=1;entryX=0.003;entryY=0.14;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamond;endFill=1;" target="2IOTU9CSTRlZO6mVEltQ-18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2IOTU9CSTRlZO6mVEltQ-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;rounded=0;" value="#UA&lt;div&gt;public void AgregarBases(Base base){&lt;/div&gt;&lt;div&gt;_bases.Add(base);&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;public void EliminarBase(Base base){&lt;/div&gt;&lt;div&gt;_bases.Remove(base)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;}&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;public int AmbulanciasDisponibles(){&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;int ambulancias = 0;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;forEach(var bases in _bases){&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;ambulancias += bases.CantidadAmbulancias&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;return ambulancias;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;}&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;public double TiempoDeAsistencia(){&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;double tiempo = 0;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;forEach(var base in _bases){&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;tiempo += base.&lt;/span&gt;TiempoAsistencia&lt;span style=&quot;white-space: pre;&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt; &lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;return tiempo / base.Count;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;}&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="410" width="370" x="700" y="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
