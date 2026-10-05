@@ -1,0 +1,15 @@
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\bin\Debug\net10.0\clase_22.exe
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\bin\Debug\net10.0\clase_22.deps.json
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\bin\Debug\net10.0\clase_22.runtimeconfig.json
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\bin\Debug\net10.0\clase_22.dll
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\bin\Debug\net10.0\clase_22.pdb
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\obj\Debug\net10.0\clase_22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\obj\Debug\net10.0\clase_22.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\obj\Debug\net10.0\clase_22.AssemblyInfo.cs
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\obj\Debug\net10.0\clase_22.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\obj\Debug\net10.0\clase_22.sourcelink.json
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\obj\Debug\net10.0\clase_22.dll
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\obj\Debug\net10.0\refint\clase_22.dll
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\obj\Debug\net10.0\clase_22.pdb
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\obj\Debug\net10.0\clase_22.genruntimeconfig.cache
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\obj\Debug\net10.0\ref\clase_22.dll
