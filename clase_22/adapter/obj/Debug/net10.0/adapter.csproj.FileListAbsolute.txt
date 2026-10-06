@@ -1,0 +1,15 @@
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\adapter\bin\Debug\net10.0\adapter.exe
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\adapter\bin\Debug\net10.0\adapter.deps.json
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\adapter\bin\Debug\net10.0\adapter.runtimeconfig.json
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\adapter\bin\Debug\net10.0\adapter.dll
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\adapter\bin\Debug\net10.0\adapter.pdb
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\adapter\obj\Debug\net10.0\adapter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\adapter\obj\Debug\net10.0\adapter.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\adapter\obj\Debug\net10.0\adapter.AssemblyInfo.cs
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\adapter\obj\Debug\net10.0\adapter.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\adapter\obj\Debug\net10.0\adapter.sourcelink.json
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\adapter\obj\Debug\net10.0\adapter.dll
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\adapter\obj\Debug\net10.0\refint\adapter.dll
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\adapter\obj\Debug\net10.0\adapter.pdb
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\adapter\obj\Debug\net10.0\adapter.genruntimeconfig.cache
+C:\Users\ACER\Desktop\UTN 2do Cuatrimestre 2026\Programacion ll - Martes & Viernes\practicas_II\clase_22\adapter\obj\Debug\net10.0\ref\adapter.dll

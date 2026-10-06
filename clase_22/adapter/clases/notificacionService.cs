@@ -1,6 +1,5 @@
 namespace clase_22.adapter.clases;
 
-
 public class NotificacionService
 {
     private INotificador _notificador;
