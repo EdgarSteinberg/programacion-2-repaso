@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("chainResponsability")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8fea5205f99bd72d7942b2797d2a62216c7edb6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fef66d550d4b7aaa1c2ab7d38ef2a67bdcb9a4d")]
 [assembly: System.Reflection.AssemblyProductAttribute("chainResponsability")]
 [assembly: System.Reflection.AssemblyTitleAttribute("chainResponsability")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
