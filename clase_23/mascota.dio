@@ -1,101 +1,122 @@
 <mxfile host="65bd71144e">
     <diagram id="KOA0ZoDZ-MzjdiY7_Ypa" name="Page-1">
-        <mxGraphModel dx="1720" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2102" dy="1874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-1" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Mascota" vertex="1">
-                    <mxGeometry height="78" width="250" x="335" y="40" as="geometry"/>
+                    <mxGeometry height="178" width="295" x="60" y="-90" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-44" parent="pVztxgi3BJyKxwhJAuHt-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="- nivelContenta() : int" vertex="1">
-                    <mxGeometry height="20" width="250" y="30" as="geometry"/>
+                    <mxGeometry height="20" width="295" y="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-3" parent="pVztxgi3BJyKxwhJAuHt-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="- estado : IEstadosMascota" vertex="1">
-                    <mxGeometry height="20" width="250" y="50" as="geometry"/>
+                    <mxGeometry height="20" width="295" y="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="pVztxgi3BJyKxwhJAuHt-27" parent="pVztxgi3BJyKxwhJAuHt-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="- MinutosAburrida : int" vertex="1">
+                    <mxGeometry height="20" width="295" y="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-6" parent="pVztxgi3BJyKxwhJAuHt-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
-                    <mxGeometry height="8" width="250" y="70" as="geometry"/>
+                    <mxGeometry height="8" width="295" y="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="pVztxgi3BJyKxwhJAuHt-51" parent="pVztxgi3BJyKxwhJAuHt-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Jugar() : void" vertex="1">
+                    <mxGeometry height="20" width="295" y="98" as="geometry"/>
+                </mxCell>
+                <mxCell id="pVztxgi3BJyKxwhJAuHt-55" parent="pVztxgi3BJyKxwhJAuHt-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Comer() : void" vertex="1">
+                    <mxGeometry height="20" width="295" y="118" as="geometry"/>
+                </mxCell>
+                <mxCell id="pVztxgi3BJyKxwhJAuHt-52" parent="pVztxgi3BJyKxwhJAuHt-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ PuedeJugar() : bool" vertex="1">
+                    <mxGeometry height="20" width="295" y="138" as="geometry"/>
+                </mxCell>
+                <mxCell id="pVztxgi3BJyKxwhJAuHt-49" parent="pVztxgi3BJyKxwhJAuHt-1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ CambiarEstado(IEstadoMascota nuevoEstado)" vertex="1">
+                    <mxGeometry height="20" width="295" y="158" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-10" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" value="Contenta" vertex="1">
-                    <mxGeometry height="98" width="140" x="150" y="280" as="geometry"/>
+                    <mxGeometry height="98" width="185" x="115" y="304" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-12" parent="pVztxgi3BJyKxwhJAuHt-10" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="attribute1" vertex="1">
-                    <mxGeometry height="20" width="140" y="30" as="geometry"/>
+                    <mxGeometry height="20" width="185" y="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-15" parent="pVztxgi3BJyKxwhJAuHt-10" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
-                    <mxGeometry height="8" width="140" y="50" as="geometry"/>
+                    <mxGeometry height="8" width="185" y="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVztxgi3BJyKxwhJAuHt-39" parent="pVztxgi3BJyKxwhJAuHt-10" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Comer() : void" vertex="1">
-                    <mxGeometry height="20" width="140" y="58" as="geometry"/>
+                <mxCell id="pVztxgi3BJyKxwhJAuHt-39" parent="pVztxgi3BJyKxwhJAuHt-10" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Comer(Mascota m) : void" vertex="1">
+                    <mxGeometry height="20" width="185" y="58" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVztxgi3BJyKxwhJAuHt-38" parent="pVztxgi3BJyKxwhJAuHt-10" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Jugar() : void" vertex="1">
-                    <mxGeometry height="20" width="140" y="78" as="geometry"/>
+                <mxCell id="pVztxgi3BJyKxwhJAuHt-38" parent="pVztxgi3BJyKxwhJAuHt-10" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Jugar(Mascota m) : void" vertex="1">
+                    <mxGeometry height="20" width="185" y="78" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-45" edge="1" parent="1" source="pVztxgi3BJyKxwhJAuHt-18" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=0;" target="pVztxgi3BJyKxwhJAuHt-23">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-18" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Hambrienta" vertex="1">
-                    <mxGeometry height="98" width="140" x="-60" y="280" as="geometry"/>
+                    <mxGeometry height="98" width="185" x="-145" y="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-19" parent="pVztxgi3BJyKxwhJAuHt-18" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="attribute1" vertex="1">
-                    <mxGeometry height="20" width="140" y="30" as="geometry"/>
+                    <mxGeometry height="20" width="185" y="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-20" parent="pVztxgi3BJyKxwhJAuHt-18" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
-                    <mxGeometry height="8" width="140" y="50" as="geometry"/>
+                    <mxGeometry height="8" width="185" y="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVztxgi3BJyKxwhJAuHt-37" parent="pVztxgi3BJyKxwhJAuHt-18" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Jugar() : void" vertex="1">
-                    <mxGeometry height="20" width="140" y="58" as="geometry"/>
+                <mxCell id="pVztxgi3BJyKxwhJAuHt-37" parent="pVztxgi3BJyKxwhJAuHt-18" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Jugar(Mascota m) : void" vertex="1">
+                    <mxGeometry height="20" width="185" y="58" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVztxgi3BJyKxwhJAuHt-36" parent="pVztxgi3BJyKxwhJAuHt-18" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Comer() : void" vertex="1">
-                    <mxGeometry height="20" width="140" y="78" as="geometry"/>
+                <mxCell id="pVztxgi3BJyKxwhJAuHt-36" parent="pVztxgi3BJyKxwhJAuHt-18" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Comer(Mascota m) : void" vertex="1">
+                    <mxGeometry height="20" width="185" y="78" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVztxgi3BJyKxwhJAuHt-48" edge="1" parent="1" source="pVztxgi3BJyKxwhJAuHt-22" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=1;" target="pVztxgi3BJyKxwhJAuHt-1">
+                <mxCell id="pVztxgi3BJyKxwhJAuHt-48" edge="1" parent="1" source="pVztxgi3BJyKxwhJAuHt-22" style="edgeStyle=none;html=1;entryX=0.464;entryY=1.15;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=1;entryPerimeter=0;" target="pVztxgi3BJyKxwhJAuHt-49">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-22" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="IEstadosMascota" vertex="1">
-                    <mxGeometry height="98" width="140" x="150" y="140" as="geometry"/>
+                    <mxGeometry height="118" width="185" x="105" y="130" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-23" parent="pVztxgi3BJyKxwhJAuHt-22" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="attribute1" vertex="1">
-                    <mxGeometry height="20" width="140" y="30" as="geometry"/>
+                    <mxGeometry height="20" width="185" y="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-24" parent="pVztxgi3BJyKxwhJAuHt-22" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
-                    <mxGeometry height="8" width="140" y="50" as="geometry"/>
+                    <mxGeometry height="8" width="185" y="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVztxgi3BJyKxwhJAuHt-9" parent="pVztxgi3BJyKxwhJAuHt-22" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Comer() : void" vertex="1">
-                    <mxGeometry height="20" width="140" y="58" as="geometry"/>
+                <mxCell id="pVztxgi3BJyKxwhJAuHt-9" parent="pVztxgi3BJyKxwhJAuHt-22" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Comer(Mascota m) : void" vertex="1">
+                    <mxGeometry height="20" width="185" y="58" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVztxgi3BJyKxwhJAuHt-8" parent="pVztxgi3BJyKxwhJAuHt-22" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Jugar() : void" vertex="1">
-                    <mxGeometry height="20" width="140" y="78" as="geometry"/>
+                <mxCell id="pVztxgi3BJyKxwhJAuHt-53" parent="pVztxgi3BJyKxwhJAuHt-22" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Jugar(Mascota m) : void" vertex="1">
+                    <mxGeometry height="20" width="185" y="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="pVztxgi3BJyKxwhJAuHt-8" parent="pVztxgi3BJyKxwhJAuHt-22" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ PuedeJugar() : bool" vertex="1">
+                    <mxGeometry height="20" width="185" y="98" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-46" edge="1" parent="1" source="pVztxgi3BJyKxwhJAuHt-26" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=0;" target="pVztxgi3BJyKxwhJAuHt-23">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-26" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" value="Aburrida" vertex="1">
-                    <mxGeometry height="98" width="140" x="360" y="280" as="geometry"/>
-                </mxCell>
-                <mxCell id="pVztxgi3BJyKxwhJAuHt-27" parent="pVztxgi3BJyKxwhJAuHt-26" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="- MinutosAburrida : int" vertex="1">
-                    <mxGeometry height="20" width="140" y="30" as="geometry"/>
+                    <mxGeometry height="78" width="210" x="355" y="188" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-28" parent="pVztxgi3BJyKxwhJAuHt-26" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
-                    <mxGeometry height="8" width="140" y="50" as="geometry"/>
+                    <mxGeometry height="8" width="210" y="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVztxgi3BJyKxwhJAuHt-40" parent="pVztxgi3BJyKxwhJAuHt-26" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Comer() : void" vertex="1">
-                    <mxGeometry height="20" width="140" y="58" as="geometry"/>
+                <mxCell id="pVztxgi3BJyKxwhJAuHt-40" parent="pVztxgi3BJyKxwhJAuHt-26" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Comer(Mascota m) : void" vertex="1">
+                    <mxGeometry height="20" width="210" y="38" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVztxgi3BJyKxwhJAuHt-41" parent="pVztxgi3BJyKxwhJAuHt-26" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Jugar() : void" vertex="1">
-                    <mxGeometry height="20" width="140" y="78" as="geometry"/>
+                <mxCell id="pVztxgi3BJyKxwhJAuHt-41" parent="pVztxgi3BJyKxwhJAuHt-26" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Jugar(Mascota m) : void" vertex="1">
+                    <mxGeometry height="20" width="210" y="58" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVztxgi3BJyKxwhJAuHt-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;#Hambrienta&lt;/div&gt;public void Comer(Mascota m){&lt;div&gt;return M.estado = Contenta;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;public void Juega(Mascota m){&lt;/div&gt;&lt;div&gt;return &#39;La mascota no puede jugar porque esta aburrida&#39;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="122" width="250" x="-160" y="400" as="geometry"/>
+                <mxCell id="pVztxgi3BJyKxwhJAuHt-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;#Hambrienta&lt;/div&gt;public void Comer(Mascota m){&lt;div&gt;return M.Cambiarestado(new Contenta);&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;public void Juega(Mascota m){&lt;/div&gt;&lt;div&gt;return &#39;La mascota no puede jugar porque esta aburrida&#39;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;public bool PuedeJugar(){&lt;/div&gt;&lt;div&gt;return false;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="174" width="260" x="-174" y="266" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVztxgi3BJyKxwhJAuHt-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;#Contenta&lt;/div&gt;public void Comer(Mascota m){&lt;div&gt;return M.nivelContanta += 1;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;public void Jugar(Mascota m){&lt;/div&gt;&lt;div&gt;return M.nivelContenta += 2;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="122" width="220" x="115" y="400" as="geometry"/>
+                <mxCell id="pVztxgi3BJyKxwhJAuHt-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;#Contenta&lt;/div&gt;public void Comer(Mascota m){&lt;div&gt;return M.nivelContanta += 1;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;public void Jugar(Mascota m){&lt;/div&gt;&lt;div&gt;return M.nivelContenta += 2;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(78, 86, 102, 0.38) rgb(22, 25, 29);&quot;&gt;public bool PuedeJugar(){&lt;/div&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(78, 86, 102, 0.38) rgb(22, 25, 29);&quot;&gt;return true;&lt;/div&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(78, 86, 102, 0.38) rgb(22, 25, 29);&quot;&gt;}&lt;/div&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="190" width="225.5" x="337" y="304" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVztxgi3BJyKxwhJAuHt-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;#Aburrida&lt;/div&gt;public void Comer(Mascota m){&lt;div&gt;if(MinutosAburrida &amp;gt; 80){&lt;/div&gt;&lt;div&gt;return M.estado = Cotenta&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;public void Jugar(Mascota M){&lt;/div&gt;&lt;div&gt;return M.estado = Contenta&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="160" width="230" x="360" y="400" as="geometry"/>
+                <mxCell id="pVztxgi3BJyKxwhJAuHt-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;#Aburrida&lt;/div&gt;public void Comer(Mascota m){&lt;div&gt;if(m.MinutosAburrida &amp;gt; 80){&lt;/div&gt;&lt;div&gt;return M.CambiarEstado(new Contenta())&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;public void Jugar(Mascota M){&lt;/div&gt;&lt;div&gt;return M.estado = Contenta&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(78, 86, 102, 0.38) rgb(22, 25, 29);&quot;&gt;public bool PuedeJugar(){&lt;/div&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(78, 86, 102, 0.38) rgb(22, 25, 29);&quot;&gt;return true;&lt;/div&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgba(78, 86, 102, 0.38) rgb(22, 25, 29);&quot;&gt;}&lt;/div&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="210" width="252.5" x="580" y="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-47" edge="1" parent="1" source="pVztxgi3BJyKxwhJAuHt-10" style="edgeStyle=none;html=1;entryX=0.571;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;dashed=1;" target="pVztxgi3BJyKxwhJAuHt-8">
                     <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pVztxgi3BJyKxwhJAuHt-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;rounded=0;" value="#Mascota&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;public void Jugar(){&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;estado.jugar(this)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;}&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;public void Comer(){&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;estado.comer(this)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;}&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;public bool PuedeJugar(){&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;return estado,PuedeJuegar();&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;}&lt;br&gt;&lt;/font&gt;&lt;div&gt;public void&amp;nbsp; CambiarEstado(ICambiarEstado nueviEstado){&lt;/div&gt;&lt;div&gt;return estado = nuevoEstado;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="210" width="320" x="390" y="-80" as="geometry"/>
+                </mxCell>
+                <mxCell id="pVztxgi3BJyKxwhJAuHt-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;rounded=0;" value="SOLID&lt;div&gt;&lt;table class=&quot;_6IUVGW_Table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th scope=&quot;col&quot;&gt;&lt;p class=&quot;w6asjq_TextBase _85PZeG_Text&quot;&gt;&lt;span&gt;Principio&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;&lt;th scope=&quot;col&quot;&gt;&lt;p class=&quot;w6asjq_TextBase _85PZeG_Text&quot;&gt;&lt;span&gt;¿Cómo &lt;/span&gt;&lt;span&gt;se &lt;/span&gt;&lt;span&gt;refleja &lt;/span&gt;&lt;span&gt;en &lt;/span&gt;&lt;span&gt;tu &lt;/span&gt;&lt;span&gt;diseño?&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;w6asjq_TextBase _85PZeG_Text&quot;&gt;&lt;span class=&quot;w6asjq_TextBase _85PZeG_Text&quot;&gt;&lt;span&gt;S &lt;/span&gt;&lt;span&gt;— &lt;/span&gt;&lt;span&gt;Responsabilidad &lt;/span&gt;&lt;span&gt;única&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p class=&quot;w6asjq_TextBase _85PZeG_Text&quot;&gt;&lt;span&gt;La &lt;/span&gt;&lt;span&gt;mascota &lt;/span&gt;&lt;span&gt;gestiona &lt;/span&gt;&lt;span&gt;sus &lt;/span&gt;&lt;span&gt;datos &lt;/span&gt;&lt;span&gt;y &lt;/span&gt;&lt;span&gt;transiciones; &lt;/span&gt;&lt;span&gt;cada &lt;/span&gt;&lt;span&gt;estado &lt;/span&gt;&lt;span&gt;define &lt;/span&gt;&lt;span&gt;su &lt;/span&gt;&lt;span&gt;comportamiento.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;w6asjq_TextBase _85PZeG_Text&quot;&gt;&lt;span class=&quot;w6asjq_TextBase _85PZeG_Text&quot;&gt;&lt;span&gt;O &lt;/span&gt;&lt;span&gt;— &lt;/span&gt;&lt;span&gt;Abierto/cerrado&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p class=&quot;w6asjq_TextBase _85PZeG_Text&quot;&gt;&lt;span&gt;Podés &lt;/span&gt;&lt;span&gt;agregar &lt;/span&gt;&lt;span&gt;nuevos &lt;/span&gt;&lt;span&gt;estados &lt;/span&gt;&lt;span&gt;implementando &lt;/span&gt;&lt;span&gt;la &lt;/span&gt;&lt;span&gt;interfaz.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;w6asjq_TextBase _85PZeG_Text&quot;&gt;&lt;span class=&quot;w6asjq_TextBase _85PZeG_Text&quot;&gt;&lt;span&gt;L &lt;/span&gt;&lt;span&gt;— &lt;/span&gt;&lt;span&gt;Liskov&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p class=&quot;w6asjq_TextBase _85PZeG_Text&quot;&gt;&lt;span&gt;Las &lt;/span&gt;&lt;span&gt;implementaciones &lt;/span&gt;&lt;span&gt;pueden &lt;/span&gt;&lt;span&gt;sustituirse &lt;/span&gt;&lt;span&gt;respetando &lt;/span&gt;&lt;span&gt;el &lt;/span&gt;&lt;span&gt;contrato &lt;/span&gt;&lt;span&gt;de &lt;/span&gt;&lt;span&gt;la &lt;/span&gt;&lt;span&gt;interfaz.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;w6asjq_TextBase _85PZeG_Text&quot;&gt;&lt;span class=&quot;w6asjq_TextBase _85PZeG_Text&quot;&gt;&lt;span&gt;I &lt;/span&gt;&lt;span&gt;— &lt;/span&gt;&lt;span&gt;Segregación&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p class=&quot;w6asjq_TextBase _85PZeG_Text&quot;&gt;&lt;span&gt;La &lt;/span&gt;&lt;span&gt;interfaz &lt;/span&gt;&lt;span&gt;es &lt;/span&gt;&lt;span&gt;acotada &lt;/span&gt;&lt;span&gt;y &lt;/span&gt;&lt;span&gt;todos &lt;/span&gt;&lt;span&gt;sus &lt;/span&gt;&lt;span&gt;métodos &lt;/span&gt;&lt;span&gt;tienen &lt;/span&gt;&lt;span&gt;sentido &lt;/span&gt;&lt;span&gt;para &lt;/span&gt;&lt;span&gt;los &lt;/span&gt;&lt;span&gt;estados.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;w6asjq_TextBase _85PZeG_Text&quot;&gt;&lt;span class=&quot;w6asjq_TextBase _85PZeG_Text&quot;&gt;&lt;span&gt;D &lt;/span&gt;&lt;span&gt;— &lt;/span&gt;&lt;span&gt;Inversión &lt;/span&gt;&lt;span&gt;de &lt;/span&gt;&lt;span&gt;dependencias&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;p class=&quot;w6asjq_TextBase _85PZeG_Text&quot;&gt;&lt;code class=&quot;er4J8W_Code&quot;&gt;&lt;span&gt;Mascota&lt;/span&gt;&lt;/code&gt; &lt;span&gt;depende &lt;/span&gt;&lt;span&gt;de &lt;/span&gt;&lt;code class=&quot;er4J8W_Code&quot;&gt;&lt;span&gt;IEstadoMascota&lt;/span&gt;&lt;/code&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;no &lt;/span&gt;&lt;span&gt;de &lt;/span&gt;&lt;span&gt;una &lt;/span&gt;&lt;span&gt;clase &lt;/span&gt;&lt;span&gt;concreta.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="250" width="692.5" x="-60" y="-350" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
