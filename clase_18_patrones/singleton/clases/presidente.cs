@@ -18,7 +18,7 @@ public class Presidente
 
     private static Presidente _instancia;
 
-    public static Presidente DevolverInstancia()
+  /*   public static Presidente DevolverInstancia()
     {
         if (_instancia == null)
         {
@@ -26,9 +26,9 @@ public class Presidente
         }
 
         return _instancia;
-    }
+    } */
 
-    public static void Eleccion(string nombreNuevoPresidente, string apellidoNuevoPresidente)
+    public static Presidente Eleccion(string nombreNuevoPresidente, string apellidoNuevoPresidente)
     {
         if (_instancia == null)
         {
@@ -36,6 +36,8 @@ public class Presidente
         }
         _instancia.Nombre = nombreNuevoPresidente;
         _instancia.Apellido = apellidoNuevoPresidente;
+
+        return _instancia;
     }
 
     private Presidente()
