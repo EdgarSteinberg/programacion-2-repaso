@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="KOA0ZoDZ-MzjdiY7_Ypa" name="Page-1">
-        <mxGraphModel dx="2102" dy="1874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1803" dy="1567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -32,7 +32,7 @@
                     <mxGeometry height="20" width="295" y="158" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-10" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" value="Contenta" vertex="1">
-                    <mxGeometry height="98" width="185" x="115" y="304" as="geometry"/>
+                    <mxGeometry height="118" width="185" x="115" y="304" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-12" parent="pVztxgi3BJyKxwhJAuHt-10" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="attribute1" vertex="1">
                     <mxGeometry height="20" width="185" y="30" as="geometry"/>
@@ -46,11 +46,14 @@
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-38" parent="pVztxgi3BJyKxwhJAuHt-10" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Jugar(Mascota m) : void" vertex="1">
                     <mxGeometry height="20" width="185" y="78" as="geometry"/>
                 </mxCell>
+                <mxCell id="r-O36LVgbG3QKYDYBFUf-2" parent="pVztxgi3BJyKxwhJAuHt-10" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ PuedeJugar() : bool" vertex="1">
+                    <mxGeometry height="20" width="185" y="98" as="geometry"/>
+                </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-45" edge="1" parent="1" source="pVztxgi3BJyKxwhJAuHt-18" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=0;" target="pVztxgi3BJyKxwhJAuHt-23">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-18" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Hambrienta" vertex="1">
-                    <mxGeometry height="98" width="185" x="-145" y="120" as="geometry"/>
+                    <mxGeometry height="118" width="185" x="-145" y="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-19" parent="pVztxgi3BJyKxwhJAuHt-18" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="attribute1" vertex="1">
                     <mxGeometry height="20" width="185" y="30" as="geometry"/>
@@ -58,11 +61,14 @@
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-20" parent="pVztxgi3BJyKxwhJAuHt-18" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
                     <mxGeometry height="8" width="185" y="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVztxgi3BJyKxwhJAuHt-37" parent="pVztxgi3BJyKxwhJAuHt-18" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Jugar(Mascota m) : void" vertex="1">
+                <mxCell id="pVztxgi3BJyKxwhJAuHt-36" parent="pVztxgi3BJyKxwhJAuHt-18" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Comer(Mascota m) : void" vertex="1">
                     <mxGeometry height="20" width="185" y="58" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVztxgi3BJyKxwhJAuHt-36" parent="pVztxgi3BJyKxwhJAuHt-18" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Comer(Mascota m) : void" vertex="1">
+                <mxCell id="pVztxgi3BJyKxwhJAuHt-37" parent="pVztxgi3BJyKxwhJAuHt-18" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Jugar(Mascota m) : void" vertex="1">
                     <mxGeometry height="20" width="185" y="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="r-O36LVgbG3QKYDYBFUf-1" parent="pVztxgi3BJyKxwhJAuHt-18" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ PuedeJugar() : bool" vertex="1">
+                    <mxGeometry height="20" width="185" y="98" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-48" edge="1" parent="1" source="pVztxgi3BJyKxwhJAuHt-22" style="edgeStyle=none;html=1;entryX=0.464;entryY=1.15;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=1;entryPerimeter=0;" target="pVztxgi3BJyKxwhJAuHt-49">
                     <mxGeometry relative="1" as="geometry"/>
@@ -89,7 +95,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-26" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" value="Aburrida" vertex="1">
-                    <mxGeometry height="78" width="210" x="355" y="188" as="geometry"/>
+                    <mxGeometry height="98" width="210" x="355" y="188" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-28" parent="pVztxgi3BJyKxwhJAuHt-26" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
                     <mxGeometry height="8" width="210" y="30" as="geometry"/>
@@ -99,6 +105,9 @@
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-41" parent="pVztxgi3BJyKxwhJAuHt-26" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ Jugar(Mascota m) : void" vertex="1">
                     <mxGeometry height="20" width="210" y="58" as="geometry"/>
+                </mxCell>
+                <mxCell id="r-O36LVgbG3QKYDYBFUf-3" parent="pVztxgi3BJyKxwhJAuHt-26" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" value="+ PuedeJugar() : bool" vertex="1">
+                    <mxGeometry height="20" width="210" y="78" as="geometry"/>
                 </mxCell>
                 <mxCell id="pVztxgi3BJyKxwhJAuHt-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;#Hambrienta&lt;/div&gt;public void Comer(Mascota m){&lt;div&gt;return M.Cambiarestado(new Contenta);&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;public void Juega(Mascota m){&lt;/div&gt;&lt;div&gt;return &#39;La mascota no puede jugar porque esta aburrida&#39;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;public bool PuedeJugar(){&lt;/div&gt;&lt;div&gt;return false;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" vertex="1">
                     <mxGeometry height="174" width="260" x="-174" y="266" as="geometry"/>
